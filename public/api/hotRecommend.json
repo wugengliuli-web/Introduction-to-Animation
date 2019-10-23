@@ -1,0 +1,10 @@
+{
+	"code": 1,
+	"Link": "/",
+	"hotRecommend": [{
+		"id": 1,
+		"name": "测试",
+		"type": [""],
+		"imgUrl": "./imgs/qysn.webp"
+	}]
+}

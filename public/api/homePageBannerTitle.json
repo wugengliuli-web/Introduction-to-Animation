@@ -1,0 +1,10 @@
+{
+	"code": 1,
+	"title": [{
+		"bigTitle": "这里是补番推荐",
+		"smallTitle": "Welcome"
+	}, {
+		"bigTitle": "使用技术栈",
+		"smallTitle": "react+axios+redux+redux-thunk+react-redux+mockjs+ES6"
+	}]
+}

@@ -1,0 +1,20 @@
+{
+	"code": 1,
+	"navArray": [{
+		"icon": "home",
+		"name": "首页",
+		"Link": "/home/homePage"
+	}, {
+		"icon": "book",
+		"name": "作品集",
+		"Link": "/home/allComic"
+	}, {
+		"icon": "coffee",
+		"name": "说明",
+		"Link": "/home/introduce"
+	}, {
+		"icon": "play-circle",
+		"name": "视频",
+		"Link": "/home/video"
+	}]
+}

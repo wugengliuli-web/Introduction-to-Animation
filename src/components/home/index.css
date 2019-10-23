@@ -1,0 +1,455 @@
+.home {
+  /*  导航css  */
+  /*  主页css  */
+  /*  作品css  */
+  /* 说明css */
+}
+.home header {
+  min-width: 1200px;
+  background: #e29464;
+}
+.home header .wrapper {
+  width: 1200px;
+  height: 80px;
+  margin: 0 auto;
+}
+.home header .wrapper .logo {
+  width: 160px;
+  height: 100%;
+  float: left;
+  background-image: url('components/nav/img/logo.jpg');
+  background-size: 100% 100%;
+}
+.home header .wrapper nav {
+  float: left;
+  height: 100%;
+  margin-left: 40px;
+}
+.home header .wrapper nav ul {
+  height: 100%;
+  display: flex;
+  margin-bottom: 0;
+}
+.home header .wrapper nav ul .ant-spin {
+  min-width: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.home header .wrapper nav ul li {
+  height: 80px;
+  line-height: 80px;
+  text-align: center;
+  letter-spacing: 3px;
+  margin: 0 10px;
+  box-sizing: border-box;
+  padding: 0 15px;
+  cursor: pointer;
+}
+.home header .wrapper nav ul li:hover {
+  background: #fff;
+}
+.home header .wrapper nav ul li:hover a {
+  color: #e29464;
+}
+.home header .wrapper nav ul li a {
+  color: #fff;
+  width: 76px;
+  height: 80px;
+  transition: all 0s;
+}
+.home header .wrapper nav ul li a div {
+  width: 100%;
+  line-height: 40px;
+  height: 40px;
+  font-size: 20px;
+}
+.home header .wrapper nav ul li a p {
+  width: 100%;
+  height: 40px;
+  line-height: 40px;
+  margin-bottom: 0;
+  font-size: 18px;
+}
+.home .homePage {
+  width: 1200px;
+  height: 200px;
+  margin: 0 auto;
+  margin-top: 10px;
+}
+.home .homePage .homePageBanner {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.home .homePage .homePageBanner .banner-user {
+  height: 100%;
+  width: 100%;
+}
+.home .homePage .homePageBanner .banner-user-elem {
+  text-align: center;
+  color: #fff;
+  position: relative;
+  overflow: hidden;
+}
+.home .homePage .homePageBanner .banner-user-elem .banner-user-title {
+  font-size: 32px;
+  top: 40%;
+  line-height: 1.5;
+}
+.home .homePage .homePageBanner .banner-user-elem .banner-user-text {
+  top: 40%;
+  line-height: 1.5;
+  font-size: 16px;
+}
+.home .homePage .homePageBanner .banner-anim-elem .bg {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+}
+.home .homePage .search {
+  width: 1200px;
+  height: 50px;
+  line-height: 50px;
+  margin: 20px auto;
+  text-align: center;
+}
+.home .homePage .search .ant-input-group-wrapper {
+  width: 400px;
+}
+.home .homePage .recommend {
+  width: 1200px;
+  margin: 0 auto;
+}
+.home .homePage .recommend p {
+  height: 30px;
+  line-height: 30px;
+  font-size: 20px;
+}
+.home .homePage .recommend p i {
+  margin-right: 10px;
+  font-size: 25px;
+}
+.home .homePage .recommend ul {
+  width: 100%;
+  padding: 0px;
+  padding-top: 0;
+  box-sizing: border-box;
+  overflow: hidden;
+  text-align: center;
+}
+.home .homePage .recommend ul li {
+  float: left;
+  width: 380px;
+  height: 144px;
+  margin: 0px 10px;
+  margin-bottom: 40px;
+  cursor: default;
+  display: flex;
+  text-align: left;
+}
+.home .homePage .recommend ul li a {
+  display: flex;
+}
+.home .homePage .recommend ul li a img {
+  width: 110px;
+  height: 144px;
+  background-size: 100% 100%;
+  border-radius: 5px;
+}
+.home .homePage .recommend ul li .content {
+  width: 270px;
+  height: 144px;
+  padding: 0 20px;
+  box-sizing: border-box;
+  color: #222;
+}
+.home .homePage .recommend ul li .content h1 {
+  font-size: 18px;
+  height: 24px;
+  line-height: 24px;
+  color: #222;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  margin-bottom: 9px;
+}
+.home .homePage .recommend ul li .content h3 {
+  font-size: 12px;
+  overflow: hidden;
+  max-height: 110px;
+  line-height: 1.5;
+}
+.home .homePage .record {
+  width: 100%;
+  height: 80px;
+  background: #000045;
+  margin-bottom: 30px;
+}
+.home .homePage .record div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  height: 30px;
+}
+.home .homePage .record div a {
+  font-size: 16px;
+  color: #fff;
+  display: block;
+  width: 100%;
+  text-align: center;
+}
+.home .allComic {
+  width: 1200px;
+  margin: 0 auto;
+  margin-top: 30px;
+}
+.home .allComic .searchWrapper {
+  width: 100%;
+  text-align: center;
+}
+.home .allComic .searchWrapper .search {
+  width: 400px;
+  height: 40px;
+  line-height: 40px;
+  margin: 0 auto;
+}
+.home .allComic .searchWrapper .tag {
+  margin: 20px auto;
+  height: 40px;
+  line-height: 40px;
+}
+.home .allComic .searchWrapper .tag label {
+  margin: 0 15px;
+}
+.home .allComic .ComicShowWrapper {
+  width: 100%;
+  margin: 0 auto;
+}
+.home .allComic .ComicShowWrapper p {
+  height: 30px;
+  line-height: 30px;
+  font-size: 20px;
+  color: #222;
+}
+.home .allComic .ComicShowWrapper p i {
+  margin-right: 10px;
+  font-size: 25px;
+}
+.home .allComic .ComicShowWrapper .showWrapper {
+  width: 100%;
+  min-height: 40px;
+}
+.home .allComic .ComicShowWrapper .showWrapper .show {
+  width: 100%;
+  text-align: center;
+}
+.home .allComic .ComicShowWrapper .showWrapper .show ul {
+  width: 100%;
+  max-height: 552px;
+  overflow: hidden;
+}
+.home .allComic .ComicShowWrapper .showWrapper .show ul li {
+  float: left;
+  width: 380px;
+  margin: 00px 10px;
+  box-sizing: border-box;
+  height: 144px;
+  margin-bottom: 40px;
+  display: flex;
+  text-align: left;
+}
+.home .allComic .ComicShowWrapper .showWrapper .show ul li a {
+  display: flex;
+}
+.home .allComic .ComicShowWrapper .showWrapper .show ul li a img {
+  width: 110px;
+  height: 144px;
+  background-size: 100% 100%;
+  border-radius: 5px;
+}
+.home .allComic .ComicShowWrapper .showWrapper .show ul li .content {
+  width: 270px;
+  height: 144px;
+  padding: 0 20px;
+  box-sizing: border-box;
+  color: #222;
+}
+.home .allComic .ComicShowWrapper .showWrapper .show ul li .content h1 {
+  font-size: 18px;
+  height: 24px;
+  line-height: 24px;
+  color: #222;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  margin-bottom: 9px;
+}
+.home .allComic .ComicShowWrapper .showWrapper .show ul li .content h3 {
+  font-size: 12px;
+  overflow: hidden;
+  max-height: 110px;
+  line-height: 1.5;
+}
+.home .allComic .ComicShowWrapper .showWrapper .list {
+  margin-top: 30px;
+  width: 100%;
+  height: 40px;
+  text-align: center;
+}
+.home .introduceWrapper {
+  width: 1200px;
+  margin: 0 auto;
+  margin-top: 30px;
+}
+.home .introduceWrapper .IntroduceBannerWrapper {
+  width: 100%;
+  height: 464px;
+}
+.home .introduceWrapper .IntroduceBannerWrapper .loading {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.home .introduceWrapper .IntroduceBannerWrapper .bannerWrapper {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+.home .introduceWrapper .IntroduceBannerWrapper .bannerWrapper .img {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  overflow: hidden;
+}
+.home .introduceWrapper .IntroduceBannerWrapper .bannerWrapper .img li {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  transition: all 0.5s;
+}
+.home .introduceWrapper .IntroduceBannerWrapper .bannerWrapper .img li img {
+  width: 100%;
+  height: 100%;
+  background-size: 100% 100%;
+  display: none;
+  border-radius: 20px;
+}
+.home .introduceWrapper .IntroduceBannerWrapper .bannerWrapper .img li .on {
+  display: block;
+}
+.home .introduceWrapper .IntroduceBannerWrapper .bannerWrapper .img .active {
+  opacity: 1;
+}
+.home .introduceWrapper .IntroduceBannerWrapper .bannerWrapper .next,
+.home .introduceWrapper .IntroduceBannerWrapper .bannerWrapper .prve {
+  box-sizing: border-box;
+  position: absolute;
+  top: 182px;
+  width: 60px;
+  height: 100px;
+  cursor: pointer;
+}
+.home .introduceWrapper .IntroduceBannerWrapper .bannerWrapper .next {
+  right: 0;
+}
+.home .introduceWrapper .IntroduceBannerWrapper .bannerWrapper .next i {
+  display: block;
+  width: 100%;
+  height: 100%;
+  background: #000;
+  opacity: 0.5;
+}
+.home .introduceWrapper .IntroduceBannerWrapper .bannerWrapper .next span {
+  width: 100%;
+  height: 100%;
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  background-size: 100% 100%;
+  background-image: url('mock/bannerImgs/箭头.png');
+}
+.home .introduceWrapper .IntroduceBannerWrapper .bannerWrapper .prve {
+  left: 0;
+}
+.home .introduceWrapper .IntroduceBannerWrapper .bannerWrapper .prve i {
+  display: block;
+  width: 100%;
+  height: 100%;
+  background: #000;
+  opacity: 0.5;
+}
+.home .introduceWrapper .IntroduceBannerWrapper .bannerWrapper .prve span {
+  width: 100%;
+  height: 100%;
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  background-size: 100% 100%;
+  background-image: url('mock/bannerImgs/箭头.png');
+  transform: rotate(180deg);
+}
+.home .introduceWrapper .IntroduceBannerWrapper .bannerWrapper .btns {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  height: 0px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+.home .introduceWrapper .IntroduceBannerWrapper .bannerWrapper .btns ul {
+  display: flex;
+  position: absolute;
+  bottom: 10px;
+}
+.home .introduceWrapper .IntroduceBannerWrapper .bannerWrapper .btns ul li {
+  transition: all 0.3s;
+  opacity: 0.8;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: #fff;
+  margin: 0 5px;
+  cursor: pointer;
+}
+.home .introduceWrapper .IntroduceBannerWrapper .bannerWrapper .btns ul .on {
+  background: #f90;
+}
+.home .introduceWrapper .timerWrapper {
+  width: 1200px;
+  margin: 0px auto;
+  margin-top: 30px;
+  padding-left: 30px;
+  box-sizing: border-box;
+}
+.home .introduceWrapper .timerWrapper ul li {
+  font-size: 20px;
+}
+.home .introduceWrapper .timerWrapper ul li .ant-timeline-item-head-blue {
+  width: 15px;
+  height: 15px;
+}
+.home .introduceWrapper .timerWrapper ul li .ant-timeline-item-content {
+  margin-left: 25px;
+}
+.home .introduceWrapper .timerWrapper .load {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
